@@ -111,7 +111,7 @@ Name: %{?scl_prefix}php
 %else
 Name: php70w
 %endif
-Version: 7.0.13
+Version: 7.0.14
 Release: 1%{?rcver:.%{rcver}}%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
@@ -1898,6 +1898,9 @@ fi
 %files mysqlnd -f files.mysqlnd
 
 %changelog
+* Sat Dec 10 2016 Andy Thompson <andy@webtatic.com> - 7.0.14-1
+- update to php-7.0.14
+
 * Thu Nov 10 2016 Andy Thompson <andy@webtatic.com> - 7.0.13-1
 - update to php-7.0.13
 - update zipver to upstream version
