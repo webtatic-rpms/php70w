@@ -111,7 +111,7 @@ Name: %{?scl_prefix}php
 %else
 Name: php70w
 %endif
-Version: 7.0.16
+Version: 7.0.17
 Release: 1%{?rcver:.%{rcver}}%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
@@ -1898,6 +1898,9 @@ fi
 %files mysqlnd -f files.mysqlnd
 
 %changelog
+* Sun Mar 19 2017 Andy Thompson <andy@webtatic.com> - 7.0.17-1
+- update to php-7.0.17
+
 * Sat Feb 18 2017 Andy Thompson <andy@webtatic.com> - 7.0.16-1
 - update to php-7.0.16
 
