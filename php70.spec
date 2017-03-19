@@ -144,7 +144,7 @@ Patch8: php-7.0.2-libdb.patch
 # Fixes for extension modules
 
 # Functional changes
-Patch40: php-7.0.0-dlopen.patch
+Patch40: php-7.0.17-dlopen.patch
 Patch42: php-7.0.0-systzdata-v13.patch
 # See http://bugs.php.net/53436
 Patch43: php-5.4.0-phpize.patch
@@ -1900,6 +1900,7 @@ fi
 %changelog
 * Sun Mar 19 2017 Andy Thompson <andy@webtatic.com> - 7.0.17-1
 - update to php-7.0.17
+- Update dlopen patch with upstream changes
 
 * Sat Feb 18 2017 Andy Thompson <andy@webtatic.com> - 7.0.16-1
 - update to php-7.0.16
