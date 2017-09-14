@@ -1903,6 +1903,7 @@ fi
 %changelog
 * Thu Sep 14 2017 Andy Thompson <andy@webtatic.com> - 7.0.23-2
 - add patch for sqlite3_errstr fix correction
+- rebuild for EL7.4
 
 * Thu Aug 31 2017 Andy Thompson <andy@webtatic.com> - 7.0.23-1
 - update to php-7.0.23
