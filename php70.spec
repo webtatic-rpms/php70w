@@ -111,8 +111,8 @@ Name: %{?scl_prefix}php
 %else
 Name: php70w
 %endif
-Version: 7.0.23
-Release: 2%{?rcver:.%{rcver}}%{?dist}
+Version: 7.0.24
+Release: 1%{?rcver:.%{rcver}}%{?dist}
 # All files licensed under PHP version 3.01, except
 # Zend is licensed under Zend
 # TSRM is licensed under BSD
@@ -1901,6 +1901,9 @@ fi
 %files mysqlnd -f files.mysqlnd
 
 %changelog
+* Sat Sep 30 2017 Andy Thompson <andy@webtatic.com> - 7.0.24-1
+- update to php-7.0.24
+
 * Thu Sep 14 2017 Andy Thompson <andy@webtatic.com> - 7.0.23-2
 - add patch for sqlite3_errstr fix correction
 - rebuild for EL7.4
